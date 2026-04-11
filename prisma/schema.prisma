@@ -1,0 +1,166 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+
+// ────────────────────────────────────────────────
+//  Mùa Union Raid
+// ────────────────────────────────────────────────
+model Raid {
+  id             Int          @id @default(autoincrement())
+  name           String       // "UniRaid #12 - Tháng 4/2026"
+  hardModeDate   DateTime?
+  status         String       @default("draft") // 'draft' | 'active' | 'closed'
+  notes          String?
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  bossSlots      BossSlot[]
+  assignments    Assignment[]
+}
+
+// ────────────────────────────────────────────────
+//  Boss Slot — 5 boss per raid, HP theo 3 level
+// ────────────────────────────────────────────────
+model BossSlot {
+  id          Int     @id @default(autoincrement())
+  raidId      Int
+  slot        Int     // 1–5
+  element     String  // 'Fire' | 'Water' | 'Wind' | 'Iron' | 'Electric'
+  displayName String?
+  hpLevel1    BigInt  // HP ở Level 1
+  hpLevel2    BigInt  // HP ở Level 2
+  hpLevel3    BigInt  // HP ở Level 3
+  notes       String?
+
+  raid        Raid      @relation(fields: [raidId], references: [id], onDelete: Cascade)
+  profiles    Profile[]
+
+  @@unique([raidId, slot])
+  @@unique([raidId, element])
+  @@index([raidId])
+}
+
+// ────────────────────────────────────────────────
+//  Danh sách nhân vật NIKKE (seed cố định)
+// ────────────────────────────────────────────────
+model Character {
+  id           Int     @id @default(autoincrement())
+  name         String  @unique
+  class        String  // 'Attacker' | 'Defender' | 'Supporter'
+  burst        String  // '1' | '2' | '3' | 'p' (Red Hood)
+  weapon       String  // 'AR' | 'RL' | 'SR' | 'SMG' | 'SG' | 'MG'
+  element      String  // 'Fire' | 'Water' | 'Wind' | 'Iron' | 'Electric'
+  manufacturer String  // 'Tetra' | 'Elysion' | 'Missilis' | 'Pilgrim' | 'Abnormal'
+  image        String? // '/images/characters/alice.webp'
+
+  // 5 FK từ Profile → Character (cần đặt tên @relation riêng)
+  profilesAsChar1 Profile[] @relation("ProfileChar1")
+  profilesAsChar2 Profile[] @relation("ProfileChar2")
+  profilesAsChar3 Profile[] @relation("ProfileChar3")
+  profilesAsChar4 Profile[] @relation("ProfileChar4")
+  profilesAsChar5 Profile[] @relation("ProfileChar5")
+}
+
+// ────────────────────────────────────────────────
+//  Thành viên Union
+// ────────────────────────────────────────────────
+model Member {
+  id                  Int      @id @default(autoincrement())
+  name                String   @unique
+  role                String   @default("regular") // 'regular' | 'finisher' | 'cleaner'
+  synchroDeviceLevel  Int      @default(1)
+  isActive            Boolean  @default(true)
+  notes               String?
+  updatedAt           DateTime @updatedAt
+
+  profiles            Profile[]
+  assignmentEntries   AssignmentEntry[]
+}
+
+// ────────────────────────────────────────────────
+//  Kết quả Mock Battle (Profile)
+// ────────────────────────────────────────────────
+model Profile {
+  id          Int      @id @default(autoincrement())
+  memberId    Int
+  bossSlotId  Int
+  char1Id     Int
+  char2Id     Int
+  char3Id     Int
+  char4Id     Int
+  char5Id     Int
+  damage      BigInt
+  submittedAt DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  notes       String?
+
+  member      Member    @relation(fields: [memberId], references: [id], onDelete: Cascade)
+  bossSlot    BossSlot  @relation(fields: [bossSlotId], references: [id], onDelete: Cascade)
+  char1       Character @relation("ProfileChar1", fields: [char1Id], references: [id], onDelete: Restrict)
+  char2       Character @relation("ProfileChar2", fields: [char2Id], references: [id], onDelete: Restrict)
+  char3       Character @relation("ProfileChar3", fields: [char3Id], references: [id], onDelete: Restrict)
+  char4       Character @relation("ProfileChar4", fields: [char4Id], references: [id], onDelete: Restrict)
+  char5       Character @relation("ProfileChar5", fields: [char5Id], references: [id], onDelete: Restrict)
+
+  assignmentEntriesAsP1 AssignmentEntry[] @relation("EntryProfile1")
+  assignmentEntriesAsP2 AssignmentEntry[] @relation("EntryProfile2")
+  assignmentEntriesAsP3 AssignmentEntry[] @relation("EntryProfile3")
+
+  @@index([memberId])
+  @@index([bossSlotId])
+  @@index([memberId, bossSlotId])
+}
+
+// ────────────────────────────────────────────────
+//  Kết quả phân công (snapshot)
+// ────────────────────────────────────────────────
+model Assignment {
+  id          Int      @id @default(autoincrement())
+  raidId      Int
+  generatedAt DateTime @default(now())
+  scenario    Int      // auto-increment per raid
+  paramsJson  String   // JSON: { mode, elapsedMs, totalEffectiveDamage }
+  status      String   @default("draft") // 'draft' | 'published'
+  notes       String?
+
+  raid    Raid              @relation(fields: [raidId], references: [id], onDelete: Cascade)
+  entries AssignmentEntry[]
+
+  @@unique([raidId, scenario])
+  @@index([raidId])
+}
+
+// ────────────────────────────────────────────────
+//  Chi tiết từng dòng phân công
+// ────────────────────────────────────────────────
+model AssignmentEntry {
+  id           Int  @id @default(autoincrement())
+  assignmentId Int
+  memberId     Int
+  profile1Id   Int?
+  profile2Id   Int?
+  profile3Id   Int?
+  level1       Int?  // Level (1/2/3) mà profile 1 được phân công đánh
+  level2       Int?
+  level3       Int?
+  execOrder1   Int?  // 1 | 2 | 3 (Wave)
+  execOrder2   Int?
+  execOrder3   Int?
+  isManual     Boolean @default(false)
+  notes        String?
+
+  assignment Assignment @relation(fields: [assignmentId], references: [id], onDelete: Cascade)
+  member     Member     @relation(fields: [memberId], references: [id], onDelete: Cascade)
+  profile1   Profile?   @relation("EntryProfile1", fields: [profile1Id], references: [id], onDelete: SetNull)
+  profile2   Profile?   @relation("EntryProfile2", fields: [profile2Id], references: [id], onDelete: SetNull)
+  profile3   Profile?   @relation("EntryProfile3", fields: [profile3Id], references: [id], onDelete: SetNull)
+
+  @@unique([assignmentId, memberId])
+  @@index([assignmentId])
+  @@index([memberId])
+}

@@ -1,0 +1,1667 @@
+[
+  {
+    "name": "2B",
+    "element": "Fire",
+    "class": "Defender",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/2b.webp"
+  },
+  {
+    "name": "A2",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "RL",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/a2.webp"
+  },
+  {
+    "name": "Ada",
+    "element": "Electric",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "RL",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/ada.webp"
+  },
+  {
+    "name": "Ade",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "AR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/ade.webp"
+  },
+  {
+    "name": "Ade: Agent Bunny",
+    "element": "Iron",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/ade_agent_bunny.webp"
+  },
+  {
+    "name": "Admi",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SR",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/admi.webp"
+  },
+  {
+    "name": "Alice",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/alice.webp"
+  },
+  {
+    "name": "Alice: Wonderland Bunny",
+    "element": "Water",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SMG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/alice_wonderland_bunny.webp"
+  },
+  {
+    "name": "Anchor: Innocent Maid",
+    "element": "Water",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "RL",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/anchor_innocent_maid.webp"
+  },
+  {
+    "name": "Anis: Sparkling Summer",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "3",
+    "weapon": "SG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/anis_sparkling_summer.webp"
+  },
+  {
+    "name": "Anne: Miracle Fairy",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "RL",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/anne_miracle_fairy.webp"
+  },
+  {
+    "name": "Arcana",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "RL",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/arcana.webp"
+  },
+  {
+    "name": "Arcana: Fortune Mate",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "2",
+    "weapon": "SG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/arcana_fortune_mate.webp"
+  },
+  {
+    "name": "Aria",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "2",
+    "weapon": "MG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/aria.webp"
+  },
+  {
+    "name": "Asuka",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/asuka.webp"
+  },
+  {
+    "name": "Asuka: WILLE",
+    "element": "Wind",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "MG",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/asuka_wille.webp"
+  },
+  {
+    "name": "Bay",
+    "element": "Fire",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "RL",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/bay.webp"
+  },
+  {
+    "name": "Biscuit",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "RL",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/biscuit.webp"
+  },
+  {
+    "name": "Blanc",
+    "element": "Wind",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "AR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/blanc.webp"
+  },
+  {
+    "name": "Bready",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/bready.webp"
+  },
+  {
+    "name": "Brid",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/brid.webp"
+  },
+  {
+    "name": "Brid: Silent Track",
+    "element": "Fire",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/brid_silent_track.webp"
+  },
+  {
+    "name": "Centi",
+    "element": "Iron",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "RL",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/centi.webp"
+  },
+  {
+    "name": "Chime",
+    "element": "Iron",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SMG",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/chime.webp"
+  },
+  {
+    "name": "Chisato",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SMG",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/chisato.webp"
+  },
+  {
+    "name": "Cinderella",
+    "element": "Electric",
+    "class": "Defender",
+    "burst": "3",
+    "weapon": "RL",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/cinderella.webp"
+  },
+  {
+    "name": "Clay",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SMG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/clay.webp"
+  },
+  {
+    "name": "Cocoa",
+    "element": "Fire",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/cocoa.webp"
+  },
+  {
+    "name": "Crow",
+    "element": "Fire",
+    "class": "Defender",
+    "burst": "3",
+    "weapon": "SMG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/crow.webp"
+  },
+  {
+    "name": "Crown",
+    "element": "Iron",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "MG",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/crown.webp"
+  },
+  {
+    "name": "Crust",
+    "element": "Water",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "RL",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/crust.webp"
+  },
+  {
+    "name": "D",
+    "element": "Wind",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SMG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/d.webp"
+  },
+  {
+    "name": "D: Killer Wife",
+    "element": "Fire",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SR",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/d_killer_wife.webp"
+  },
+  {
+    "name": "Delta: Ninja Thief",
+    "element": "Water",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "MG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/delta_ninja_thief.webp"
+  },
+  {
+    "name": "Diesel",
+    "element": "Wind",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "MG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/diesel.webp"
+  },
+  {
+    "name": "Diesel: Winter Sweets",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "RL",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/diesel_winter_sweets.webp"
+  },
+  {
+    "name": "Dolla",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/dolla.webp"
+  },
+  {
+    "name": "Dorothy",
+    "element": "Water",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "AR",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/dorothy.webp"
+  },
+  {
+    "name": "Dorothy: Serendipity",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SG",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/dorothy_serendipity.webp"
+  },
+  {
+    "name": "Drake",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/drake.webp"
+  },
+  {
+    "name": "E.H.",
+    "element": "Wind",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SMG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/e_h.webp"
+  },
+  {
+    "name": "EVE",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/eve.webp"
+  },
+  {
+    "name": "Ein",
+    "element": "Electric",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SR",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/ein.webp"
+  },
+  {
+    "name": "Elegg",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "MG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/elegg.webp"
+  },
+  {
+    "name": "Elegg: Boom and Shock",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "MG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/elegg_boom_and_shock.webp"
+  },
+  {
+    "name": "Emilia",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "RL",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/emilia.webp"
+  },
+  {
+    "name": "Emma",
+    "element": "Fire",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "MG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/emma.webp"
+  },
+  {
+    "name": "Emma: Tactical Upgrade",
+    "element": "Fire",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "MG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/emma_tactical_upgrade.webp"
+  },
+  {
+    "name": "Epinel",
+    "element": "Wind",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SMG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/epinel.webp"
+  },
+  {
+    "name": "Eunhwa",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "2",
+    "weapon": "SR",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/eunhwa.webp"
+  },
+  {
+    "name": "Eunhwa: Tactical Upgrade",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "2",
+    "weapon": "SR",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/eunhwa_tactical_upgrade.webp"
+  },
+  {
+    "name": "Exia",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/exia.webp"
+  },
+  {
+    "name": "Flora",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "MG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/flora.webp"
+  },
+  {
+    "name": "Folkwang",
+    "element": "Water",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "AR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/folkwang.webp"
+  },
+  {
+    "name": "Frima",
+    "element": "Iron",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/frima.webp"
+  },
+  {
+    "name": "Grave",
+    "element": "Fire",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "AR",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/grave.webp"
+  },
+  {
+    "name": "Guillotine",
+    "element": "Electric",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "MG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/guillotine.webp"
+  },
+  {
+    "name": "Guillotine: Winter Slayer",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/guillotine_winter_slayer.webp"
+  },
+  {
+    "name": "Guilty",
+    "element": "Wind",
+    "class": "Attacker",
+    "burst": "2",
+    "weapon": "SG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/guilty.webp"
+  },
+  {
+    "name": "Harran",
+    "element": "Electric",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SR",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/harran.webp"
+  },
+  {
+    "name": "Helm",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SR",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/helm.webp"
+  },
+  {
+    "name": "Helm: Aquamarine",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "2",
+    "weapon": "AR",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/helm_aquamarine.webp"
+  },
+  {
+    "name": "Isabel",
+    "element": "Electric",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SG",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/isabel.webp"
+  },
+  {
+    "name": "Jackal",
+    "element": "Iron",
+    "class": "Defender",
+    "burst": "1",
+    "weapon": "RL",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/jackal.webp"
+  },
+  {
+    "name": "Jill",
+    "element": "Electric",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/jill.webp"
+  },
+  {
+    "name": "Julia",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/julia.webp"
+  },
+  {
+    "name": "K",
+    "element": "Electric",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SMG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/k.webp"
+  },
+  {
+    "name": "Kilo",
+    "element": "Fire",
+    "class": "Defender",
+    "burst": "3",
+    "weapon": "MG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/kilo.webp"
+  },
+  {
+    "name": "Label",
+    "element": "Iron",
+    "class": "Defender",
+    "burst": "1",
+    "weapon": "AR",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/label.webp"
+  },
+  {
+    "name": "Laplace",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "RL",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/laplace.webp"
+  },
+  {
+    "name": "Leona",
+    "element": "Water",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/leona.webp"
+  },
+  {
+    "name": "Liberalio",
+    "element": "Wind",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SR",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/liberalio.webp"
+  },
+  {
+    "name": "Liter",
+    "element": "Iron",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SMG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/liter.webp"
+  },
+  {
+    "name": "Little Mermaid",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SMG",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/little_mermaid.webp"
+  },
+  {
+    "name": "Ludmilla",
+    "element": "Water",
+    "class": "Defender",
+    "burst": "1",
+    "weapon": "SMG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/ludmilla.webp"
+  },
+  {
+    "name": "Ludmilla: Winter Owner",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "MG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/ludmilla_winter_owner.webp"
+  },
+  {
+    "name": "Maiden",
+    "element": "Electric",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/maiden.webp"
+  },
+  {
+    "name": "Maiden: Ice Rose",
+    "element": "Electric",
+    "class": "Defender",
+    "burst": "3",
+    "weapon": "RL",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/maiden_ice_rose.webp"
+  },
+  {
+    "name": "Makima",
+    "element": "Water",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "SMG",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/makima.webp"
+  },
+  {
+    "name": "Mana",
+    "element": "Wind",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/mana.webp"
+  },
+  {
+    "name": "Marciana",
+    "element": "Iron",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/marciana.webp"
+  },
+  {
+    "name": "Mari",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SR",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/mari.webp"
+  },
+  {
+    "name": "Mary",
+    "element": "Water",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/mary.webp"
+  },
+  {
+    "name": "Mary: Bay Goddess",
+    "element": "Water",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/mary_bay_goddess.webp"
+  },
+  {
+    "name": "Mast",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SMG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/mast.webp"
+  },
+  {
+    "name": "Mast: Romantic Maid",
+    "element": "Water",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "MG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/mast_romantic_maid.webp"
+  },
+  {
+    "name": "Maxwell",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SR",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/maxwell.webp"
+  },
+  {
+    "name": "Mica: Snow Buddy",
+    "element": "Iron",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SMG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/mica_snow_buddy.webp"
+  },
+  {
+    "name": "Mihara: Bonding Chain",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "MG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/mihara_bonding_chain.webp"
+  },
+  {
+    "name": "Milk",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "1",
+    "weapon": "SR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/milk.webp"
+  },
+  {
+    "name": "Milk: Blooming Bunny",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/milk_blooming_bunny.webp"
+  },
+  {
+    "name": "Miranda",
+    "element": "Fire",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SMG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/miranda.webp"
+  },
+  {
+    "name": "Modernia",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "MG",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/modernia.webp"
+  },
+  {
+    "name": "Moran",
+    "element": "Electric",
+    "class": "Defender",
+    "burst": "1",
+    "weapon": "AR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/moran.webp"
+  },
+  {
+    "name": "Mori",
+    "element": "Wind",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "AR",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/mori.webp"
+  },
+  {
+    "name": "Naga",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/naga.webp"
+  },
+  {
+    "name": "Nayuta",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SMG",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/nayuta.webp"
+  },
+  {
+    "name": "Neon: Blue Ocean",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "MG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/neon_blue_ocean.webp"
+  },
+  {
+    "name": "Nero",
+    "element": "Fire",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "SMG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/nero.webp"
+  },
+  {
+    "name": "Nihilister",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "2",
+    "weapon": "SR",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/nihilister.webp"
+  },
+  {
+    "name": "Noah",
+    "element": "Wind",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "RL",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/noah.webp"
+  },
+  {
+    "name": "Noir",
+    "element": "Wind",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/noir.webp"
+  },
+  {
+    "name": "Noise",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "RL",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/noise.webp"
+  },
+  {
+    "name": "Novel",
+    "element": "Iron",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "SMG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/novel.webp"
+  },
+  {
+    "name": "Pepper",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/pepper.webp"
+  },
+  {
+    "name": "Phantom",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/phantom.webp"
+  },
+  {
+    "name": "Poli",
+    "element": "Water",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "SG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/poli.webp"
+  },
+  {
+    "name": "Power",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "RL",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/power.webp"
+  },
+  {
+    "name": "Privaty",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/privaty.webp"
+  },
+  {
+    "name": "Privaty: Unkind Maid",
+    "element": "Electric",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/privaty_unkind_maid.webp"
+  },
+  {
+    "name": "Quency",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SMG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/quency.webp"
+  },
+  {
+    "name": "Quency: Escape Queen",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SMG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/quency_escape_queen.webp"
+  },
+  {
+    "name": "Quiry",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "3",
+    "weapon": "RL",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/quiry.webp"
+  },
+  {
+    "name": "Rapi: Red Hood",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "MG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/rapi_red_hood.webp"
+  },
+  {
+    "name": "Rapunzel",
+    "element": "Iron",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "RL",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/rapunzel.webp"
+  },
+  {
+    "name": "Rapunzel: Pure Grace",
+    "element": "Iron",
+    "class": "Defender",
+    "burst": "1",
+    "weapon": "SR",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/rapunzel_pure_grace.webp"
+  },
+  {
+    "name": "Raven",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "RL",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/raven.webp"
+  },
+  {
+    "name": "Red Hood",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "p",
+    "weapon": "SR",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/red_hood.webp"
+  },
+  {
+    "name": "Rei",
+    "element": "Water",
+    "class": "Defender",
+    "burst": "1",
+    "weapon": "SMG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/rei.webp"
+  },
+  {
+    "name": "Rei Ayanami",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "MG",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/rei_ayanami.webp"
+  },
+  {
+    "name": "Rei Ayanami (Tentative Name)",
+    "element": "Wind",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/rei_ayanami_tentative_name.webp"
+  },
+  {
+    "name": "Rem",
+    "element": "Water",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "MG",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/rem.webp"
+  },
+  {
+    "name": "Rosanna",
+    "element": "Electric",
+    "class": "Attacker",
+    "burst": "1",
+    "weapon": "MG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/rosanna.webp"
+  },
+  {
+    "name": "Rosanna: Chic Ocean",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "AR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/rosanna_chic_ocean.webp"
+  },
+  {
+    "name": "Rouge",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/rouge.webp"
+  },
+  {
+    "name": "Rumani",
+    "element": "Fire",
+    "class": "Defender",
+    "burst": "1",
+    "weapon": "RL",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/rumani.webp"
+  },
+  {
+    "name": "Rupee",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "2",
+    "weapon": "AR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/rupee.webp"
+  },
+  {
+    "name": "Rupee: Winter Shopper",
+    "element": "Electric",
+    "class": "Defender",
+    "burst": "1",
+    "weapon": "AR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/rupee_winter_shopper.webp"
+  },
+  {
+    "name": "Sakura",
+    "element": "Fire",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/sakura.webp"
+  },
+  {
+    "name": "Sakura: Bloom in Summer",
+    "element": "Wind",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/sakura_bloom_in_summer.webp"
+  },
+  {
+    "name": "Scarlet",
+    "element": "Electric",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/scarlet.webp"
+  },
+  {
+    "name": "Scarlet: Black Shadow",
+    "element": "Wind",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "RL",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/scarlet_black_shadow.webp"
+  },
+  {
+    "name": "Signal",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "2",
+    "weapon": "SMG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/signal.webp"
+  },
+  {
+    "name": "Sin",
+    "element": "Electric",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "AR",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/sin.webp"
+  },
+  {
+    "name": "Snow White",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/snow_white.webp"
+  },
+  {
+    "name": "Snow White: Heavy Arms",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SR",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/snow_white_heavy_arms.webp"
+  },
+  {
+    "name": "Snow White: Innocent Days",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Pilgrim",
+    "image": "/images/characters/snow_white_innocent_days.webp"
+  },
+  {
+    "name": "Soda",
+    "element": "Fire",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "MG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/soda.webp"
+  },
+  {
+    "name": "Soda: Twinkling Bunny",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/soda_twinkling_bunny.webp"
+  },
+  {
+    "name": "Soline",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SMG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/soline.webp"
+  },
+  {
+    "name": "Soline: Frost Ticket",
+    "element": "Water",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/soline_frost_ticket.webp"
+  },
+  {
+    "name": "Sora",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "RL",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/sora.webp"
+  },
+  {
+    "name": "Sugar",
+    "element": "Iron",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/sugar.webp"
+  },
+  {
+    "name": "Takina",
+    "element": "Iron",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SR",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/takina.webp"
+  },
+  {
+    "name": "Tia",
+    "element": "Iron",
+    "class": "Defender",
+    "burst": "1",
+    "weapon": "RL",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/tia.webp"
+  },
+  {
+    "name": "Tove",
+    "element": "Water",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "AR",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/tove.webp"
+  },
+  {
+    "name": "Trina",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "RL",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/trina.webp"
+  },
+  {
+    "name": "Trony",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SR",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/trony.webp"
+  },
+  {
+    "name": "Velvet",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/velvet.webp"
+  },
+  {
+    "name": "Vesti",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "RL",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/vesti.webp"
+  },
+  {
+    "name": "Vesti: Tactical Upgrade",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "RL",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/vesti_tactical_upgrade.webp"
+  },
+  {
+    "name": "Viper",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "2",
+    "weapon": "SG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/viper.webp"
+  },
+  {
+    "name": "Volume",
+    "element": "Wind",
+    "class": "Attacker",
+    "burst": "1",
+    "weapon": "SMG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/volume.webp"
+  },
+  {
+    "name": "Yan",
+    "element": "Fire",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "RL",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/yan.webp"
+  },
+  {
+    "name": "Yulha",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/yulha.webp"
+  },
+  {
+    "name": "Yuni",
+    "element": "Fire",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "RL",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/yuni.webp"
+  },
+  {
+    "name": "Zwei",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/zwei.webp"
+  },
+  {
+    "name": "Anchor",
+    "element": "Wind",
+    "class": "Defender",
+    "burst": "1",
+    "weapon": "RL",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/anchor.webp"
+  },
+  {
+    "name": "Anis",
+    "element": "Iron",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "RL",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/anis.webp"
+  },
+  {
+    "name": "Belorta",
+    "element": "Electric",
+    "class": "Attacker",
+    "burst": "2",
+    "weapon": "RL",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/belorta.webp"
+  },
+  {
+    "name": "Claire",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "RL",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/claire.webp"
+  },
+  {
+    "name": "Delta",
+    "element": "Wind",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "SR",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/delta.webp"
+  },
+  {
+    "name": "Ether",
+    "element": "Electric",
+    "class": "Defender",
+    "burst": "1",
+    "weapon": "SG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/ether.webp"
+  },
+  {
+    "name": "Himeno",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SR",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/himeno.webp"
+  },
+  {
+    "name": "Kurumi",
+    "element": "Iron",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "AR",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/kurumi.webp"
+  },
+  {
+    "name": "Lily",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SMG",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/lily.webp"
+  },
+  {
+    "name": "Mica",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "RL",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/mica.webp"
+  },
+  {
+    "name": "Mihara",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/mihara.webp"
+  },
+  {
+    "name": "Misato",
+    "element": "Iron",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SMG",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/misato.webp"
+  },
+  {
+    "name": "N102",
+    "element": "Water",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "RL",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/n102.webp"
+  },
+  {
+    "name": "Neon",
+    "element": "Fire",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/neon.webp"
+  },
+  {
+    "name": "Neve",
+    "element": "Water",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "SG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/neve.webp"
+  },
+  {
+    "name": "Pascal",
+    "element": "Iron",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "RL",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/pascal.webp"
+  },
+  {
+    "name": "Ram",
+    "element": "Wind",
+    "class": "Defender",
+    "burst": "1",
+    "weapon": "SR",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/ram.webp"
+  },
+  {
+    "name": "Rapi",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/rapi.webp"
+  },
+  {
+    "name": "Sakura Suzuhara",
+    "element": "Water",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SMG",
+    "manufacturer": "Abnormal",
+    "image": "/images/characters/sakura_suzuhara.webp"
+  },
+  {
+    "name": "Product 08",
+    "element": "Electric",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SR",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/product_08.webp"
+  },
+  {
+    "name": "Product 12",
+    "element": "Fire",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "MG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/product_12.webp"
+  },
+  {
+    "name": "Product 23",
+    "element": "Wind",
+    "class": "Supporter",
+    "burst": "2",
+    "weapon": "SG",
+    "manufacturer": "Missilis",
+    "image": "/images/characters/product_23.webp"
+  },
+  {
+    "name": "Soldier EG",
+    "element": "Electric",
+    "class": "Attacker",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/soldier_eg.webp"
+  },
+  {
+    "name": "Soldier FA",
+    "element": "Iron",
+    "class": "Defender",
+    "burst": "2",
+    "weapon": "SG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/soldier_fa.webp"
+  },
+  {
+    "name": "Soldier OW",
+    "element": "Fire",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SMG",
+    "manufacturer": "Elysion",
+    "image": "/images/characters/soldier_ow.webp"
+  },
+  {
+    "name": "iDoll Flower",
+    "element": "Wind",
+    "class": "Defender",
+    "burst": "1",
+    "weapon": "RL",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/idoll_flower.webp"
+  },
+  {
+    "name": "iDoll Ocean",
+    "element": "Water",
+    "class": "Supporter",
+    "burst": "1",
+    "weapon": "SMG",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/idoll_ocean.webp"
+  },
+  {
+    "name": "iDoll Sun",
+    "element": "Iron",
+    "class": "Supporter",
+    "burst": "3",
+    "weapon": "AR",
+    "manufacturer": "Tetra",
+    "image": "/images/characters/idoll_sun.webp"
+  }
+]

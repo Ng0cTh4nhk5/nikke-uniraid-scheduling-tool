@@ -1,0 +1,38 @@
+/**
+ * Danh sách 32 thành viên Union.
+ * Dùng trong seed.ts để upsert vào bảng Member.
+ */
+export const memberData = [
+  { name: "Player01", role: "regular", synchroDeviceLevel: 664 },
+  { name: "Player02", role: "regular", synchroDeviceLevel: 600 },
+  { name: "Player03", role: "regular", synchroDeviceLevel: 661 },
+  { name: "Player04", role: "regular", synchroDeviceLevel: 630 },
+  { name: "Player05", role: "regular", synchroDeviceLevel: 666 },
+  { name: "Player06", role: "regular", synchroDeviceLevel: 571 },
+  { name: "Player07", role: "regular", synchroDeviceLevel: 671 },
+  { name: "Player08", role: "regular", synchroDeviceLevel: 707 },
+  { name: "Player09", role: "regular", synchroDeviceLevel: 686 },
+  { name: "Player10", role: "regular", synchroDeviceLevel: 685 },
+  { name: "Player11", role: "regular", synchroDeviceLevel: 649 },
+  { name: "Player12", role: "regular", synchroDeviceLevel: 666 },
+  { name: "Player13", role: "regular", synchroDeviceLevel: 650 },
+  { name: "Player14", role: "regular", synchroDeviceLevel: 600 },
+  { name: "Player15", role: "regular", synchroDeviceLevel: 662 },
+  { name: "Player16", role: "regular", synchroDeviceLevel: 685 },
+  { name: "Player17", role: "regular", synchroDeviceLevel: 665 },
+  { name: "Player18", role: "regular", synchroDeviceLevel: 695 },
+  { name: "Player19", role: "regular", synchroDeviceLevel: 646 },
+  { name: "Player20", role: "regular", synchroDeviceLevel: 587 },
+  { name: "Player21", role: "regular", synchroDeviceLevel: 604 },
+  { name: "Player22", role: "regular", synchroDeviceLevel: 600 },
+  { name: "Player23", role: "regular", synchroDeviceLevel: 673 },
+  { name: "Player24", role: "regular", synchroDeviceLevel: 699 },
+  { name: "Player25", role: "regular", synchroDeviceLevel: 651 },
+  { name: "Player26", role: "regular", synchroDeviceLevel: 683 },
+  { name: "Player27", role: "regular", synchroDeviceLevel: 682 },
+  { name: "Player28", role: "regular", synchroDeviceLevel: 682 },
+  { name: "Player29", role: "regular", synchroDeviceLevel: 650 },
+  { name: "Player30", role: "regular", synchroDeviceLevel: 696 },
+  { name: "Player31", role: "regular", synchroDeviceLevel: 591 },
+  { name: "Player32", role: "regular", synchroDeviceLevel: 600 },
+] as const;
